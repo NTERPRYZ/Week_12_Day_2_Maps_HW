@@ -1,0 +1,40 @@
+h1 {
+  color: black;
+}
+
+#main-map {
+  height: 400px;
+  width: auto;
+}
+
+#chicago-button {
+  text-decoration-color: white;
+  background-color: black;
+  height: 50px;
+  width: 210px;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+#chicago-button:hover {
+  background-color: white;
+  border: 3px solid black;
+  transform: scale(1.5, 1.5);
+}
+
+h2 {
+  color: white;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+h2:hover{
+  color: black;
+  z-index: 5;
+}
